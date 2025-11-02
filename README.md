@@ -28,7 +28,8 @@
   - **Streaming ETL**: weekly top music video votes in real-time from simulator API  
 - **Data Warehouse Design**: applied **RFM** analysis for customer insights  
 - **Customer 360°**: provide an overview of customers across all touchpoints
-> For detailed documentation, ETL steps, and in-depth analysis, please check the full report in the `big_data_report.pdf`.
+
+> For full documentation, ETL steps, and in-depth analysis, see [big_data_report.pdf](big_data_report.pdf)
 
   ![Customer 360](img/customer360.png)  
 
@@ -60,7 +61,7 @@
 ---
 
 ## ⚡ 4. ETL Streaming <a name="etl-streaming"></a>
-- **Story**: Each week is a “race” for the most-voted music videos. Spark Streaming continuously ingests votes, calculates real-time counts, and updates the leaderboard in Streamlit. Users see which videos are leading and which are gaining votes fast.  
+- **Story**: Each week is a “race” for the most-voted music videos. Spark Streaming continuously ingests votes, calculates real-time counts, and updates the leaderboard on console. Users see which videos are leading and which are gaining votes fast.  
 - **Design concept**:  
   ![Stream ETL Design](img/idea_design_stream_ETL.png)  
 
@@ -87,9 +88,10 @@
   ![Log Content Star Schema Output](img/output_log_content_star_schema.png)  
   ![Dashboard Log Content](img/output_log_content_dashboard1.png)  
   ![Dashboard Log Content](img/output_log_content_dashboard2.png)  
-- **Batch ETL - log-search**: actual Flat Table output  
+- **Batch ETL - log-search**: actual Flat Table output, showing user search trends across different time periods.
+  
   ![Log Search Flat Table Output](img/output_log_search_flat_table.png)  
-- **Streaming ETL**: real-time leaderboard, <1s latency, simulating weekly “music video race”  
+- **Streaming ETL**: real-time leaderboard on console, simulating weekly “music video race”.  
   ![Streamlit UI](img/output_UI_streamlit.png)  
   ![Stream ETL Leaderboard](img/output_stream_ETL.png)  
 
