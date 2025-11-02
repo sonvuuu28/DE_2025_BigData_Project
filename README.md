@@ -75,7 +75,7 @@
 |------------------|----------------------------|---------------------------------|
 | Programming       | Python 3.10               | Core scripting                 |
 | Batch / Streaming | Spark 3.5.6               | ETL & real-time processing     |
-| Dashboard         | Streamlit latest          | Live leaderboard visualization |
+| Dashboard         | Streamlit latest          | Create interactive application |
 | BI / Visualization| PowerBI                   | OLAP report dashboards         |
 | Database          | MySQL                     | Data Warehouse / Data Mart     |
 | ML / Classification| LM Studio                | Log-content classification     |
